@@ -6,6 +6,10 @@ const HomeSectionCard = () => {
       <div className='h-[13rem] w-[10rem]'>
         <img src='https://via.placeholder.com/150' alt='product' className=' object-cover object-top'   />
       </div>
+      <div className='p-4'>
+        <h3 className='text-lg font-medium text-gray-900'>Nofiler</h3>
+        <p className='mt-2 text-sm text-gray-500'>Men Solid Pure Cotton </p>
+      </div>
     </div>
   )
 }
