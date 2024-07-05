@@ -17,25 +17,30 @@ const HomeSectionCarosel = () => {
   ));
 
   return (
-    <div className="relative px-4 lg:px-8">
-      <div className="relative p-5">
+    <div className="relative px-4 lg:px-8 border border-black">
+      <div className="relative p-5 ">
         <AliceCarousel
           items={items}
           disableButtonsControls
           infinite
           responsive={responsive}
+          disableDotsControls
         />
         <Button
           variant="contained"
-          style={{
-            position: "absolute",
-            top: "8rem",
-            right: "0",
-            transform: "rotate(90deg) translateX(50%)", // Fixed typo and updated order
-          }}
+          className="z-50 bg-white"
+          sx={{position: 'absolute', top: "8rem", right: "0rem", transform: "translateX(50%) rotate(90deg)", bgcolor: 'white'}}
           aria-label="next"
         >
-          <KeyboardArrowLeftIcon style={{ transform: "rotate(-90deg)" }} />
+          <KeyboardArrowLeftIcon style={{ transform: "rotate(90deg)", color:'black' }} />
+        </Button>
+        <Button
+          variant="contained"
+          className="z-50 bg-white"
+          sx={{position: 'absolute', top: "8rem", left: "0rem", transform: "translateX(50%) rotate(-90deg)", bgcolor: 'white'}}
+          aria-label="next"
+        >
+          <KeyboardArrowLeftIcon style={{ transform: "rotate(90deg)", color:'black' }} />
         </Button>
       </div>
     </div>

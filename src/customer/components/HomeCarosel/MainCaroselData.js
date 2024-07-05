@@ -1,10 +1,10 @@
 export const MainCaroselData = [
   {
-    image: "https://luvinus.com/wp-content/uploads/2023/02/ve-thoi-trang-nam-2.png",
+    image: "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
     path: "/women/clothing/lengha_choli",
   },
   {
-    image: "https://via.placeholder.com/600/771796",
+    image: "https://toplist.vn/images/800px/red-shop-1319336.jpg",
     path: "women/clothing/saree",
   },
   {
