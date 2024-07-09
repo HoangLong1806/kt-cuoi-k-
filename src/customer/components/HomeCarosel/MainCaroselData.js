@@ -1,22 +1,22 @@
 export const MainCaroselData = [
   {
-    image: "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
+    image: "https://i.postimg.cc/pL10FKSL/06b286uq-Large.png",
     path: "/women/clothing/lengha_choli",
   },
   {
-    image: "https://toplist.vn/images/800px/red-shop-1319336.jpg",
+    image: "https://i.postimg.cc/pL10FKSL/06b286uq-Large.png",
     path: "women/clothing/saree",
   },
   {
-    image: "https://via.placeholder.com/600/24f355",
+    image: "https://i.postimg.cc/pL10FKSL/06b286uq-Large.png",
     path: "women/clothing/salwar_kameez",
   },
   {
-    image: "https://via.placeholder.com/600/d32776",
+    image: "https://i.postimg.cc/pL10FKSL/06b286uq-Large.png",
     path: "women/clothing/kurti",
   },
   {
-    image: "https://via.placeholder.com/600/f66b97",
+    image: "https://i.postimg.cc/pL10FKSL/06b286uq-Large.png7",
     path: "women/clothing/lehenga",
   },
 ];
